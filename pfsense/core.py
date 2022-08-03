@@ -19,6 +19,7 @@ scp.get('test2.txt')
 
 # Uploading the 'test' directory with its content in the
 # '/home/user/dump' remote directory
-scp.put('test', recursive=True, remote_path='/home/user/dump')
+
+# scp.put('test', recursive=True, remote_path='/home/user/dump')
 
 scp.close()
