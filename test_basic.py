@@ -1,3 +1,3 @@
-from pfsense import *
+from pfsense import core
 
 
