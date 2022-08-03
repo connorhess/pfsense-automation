@@ -14,8 +14,8 @@ ssh.connect(config['DEFAULT']['server_address'])
 # SCPCLient takes a paramiko transport as an argument
 scp = SCPClient(ssh.get_transport())
 
-scp.put('test.txt', 'test2.txt')
-scp.get('test2.txt')
+# scp.put('test.txt', 'test2.txt')
+# scp.get('test2.txt')
 
 # Uploading the 'test' directory with its content in the
 # '/home/user/dump' remote directory
