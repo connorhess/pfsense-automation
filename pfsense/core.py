@@ -9,7 +9,7 @@ print("Core.py")
 
 ssh = SSHClient()
 ssh.load_system_host_keys()
-ssh.connect(config['DEFAULT']['server_address'])
+ssh.connect(config['DEFAULT']['server_address'], username=config['DEFAULT']['username'], password=config['DEFAULT']['password'])
 
 # SCPCLient takes a paramiko transport as an argument
 scp = SCPClient(ssh.get_transport())

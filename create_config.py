@@ -12,6 +12,14 @@ server_address = input("Server Address ['example.com']: ")
 # server_address = "192.168.1.2"
 config['DEFAULT']['server_address'] = server_address
 
+username = input("Username ['root']: ")
+# server_address = "192.168.1.2"
+config['DEFAULT']['username'] = username
+
+password = input("Password ['test1234']: ")
+# server_address = "192.168.1.2"
+config['DEFAULT']['password'] = password
+
 
 # server_address = input("Server Address: ['example.com']")
 
