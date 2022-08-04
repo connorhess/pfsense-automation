@@ -9,7 +9,7 @@ seconds = minutes * 60
 seconds = 60
 
 for i in range(10):
-    # run()
+    run()
     bar = Bar('Sleeping', max=seconds)
     for i in range(seconds):
         # Do some work
